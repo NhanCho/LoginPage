@@ -1,0 +1,58 @@
+*{
+    font-family: Calibre, "Helvetica Neue", "Segoe UI", "Helvetica", 
+    "Arial", "Lucida Grande", "sans-serif";
+}
+h2{
+    font-size: 35px;
+    margin: 35px 0px 45px;
+    font-weight: normal;
+    /*background-color: red;*/
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   /* background-color: aqua;*/
+    margin-top: 90px;
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+}
+.div_text, .div_password{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.input_text, .input_pass{
+    height: 43px;
+    width: 319px;
+    font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding: 0 16px;
+}
+.nut_continue{
+    border: none;
+    padding: 9.5px 20px;
+    width: 100.1px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #0a7cff;
+    color: #FFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+.div_checkbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #929292;
+}
+.Not_on, .Forgot, .Privacy, .Term, .Cookies, .Meta{
+    margin:0 52px;
+    color: black;
+}
+.Help{
+    margin-top: 15px;
+}
