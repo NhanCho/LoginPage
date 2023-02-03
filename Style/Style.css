@@ -14,7 +14,7 @@ h2{
     justify-content: center;
     width: 100%;
    /* background-color: aqua;*/
-    margin-top: 90px;
+    margin-top: 80px;
 }
 .div_button{
     display: flex;
@@ -28,9 +28,11 @@ h2{
 .input_text, .input_pass{
     height: 43px;
     width: 319px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
     font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 17px;
-    padding: 0 16px;
+    padding: 16px;
 }
 .nut_continue{
     border: none;
@@ -43,16 +45,26 @@ h2{
     font-size: 15px;
     cursor: pointer;
 }
+.nut_continue:hover{
+    transition: 0.2s;
+    background-color: #054ea1;
+}
 .div_checkbox{
     display: flex;
     justify-content: center;
     margin-top: 20px;
     color: #929292;
 }
-.Not_on, .Forgot, .Privacy, .Term, .Cookies, .Meta{
-    margin:0 52px;
+.Not_on, .Forgot, .Privacy, .Terms, .Cookies, .Meta{
+    margin: 0 15px;
     color: black;
+    text-decoration: none;
+}
+.Not_on:hover, .Forgot:hover, .Privacy:hover, .Terms:hover, .Cookies:hover{
+   text-decoration: underline;
 }
 .Help{
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
